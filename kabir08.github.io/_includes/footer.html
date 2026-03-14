@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-name">{{ site.author.name }}</p>
+    <div class="footer-links">
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" aria-label="GitHub">
+        {% include icons/github.html %}
+      </a>
+      <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+        {% include icons/linkedin.html %}
+      </a>
+      <a href="https://scholar.google.com/citations?user={{ site.author.scholar }}&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+        {% include icons/scholar.html %}
+      </a>
+      <a href="https://x.com/{{ site.author.twitter }}" target="_blank" rel="noopener" aria-label="X / Twitter">
+        {% include icons/x.html %}
+      </a>
+      <a href="mailto:{{ site.author.email }}" aria-label="Email">
+        {% include icons/email.html %}
+      </a>
+    </div>
+    <p class="footer-copy">&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</p>
+  </div>
+</footer>

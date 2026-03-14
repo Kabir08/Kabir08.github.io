@@ -1,0 +1,50 @@
+title: Kabir Potdar
+description: AI/ML Researcher · LLM Efficiency · Edge Deployment
+url: "https://kabir08.github.io"
+baseurl: ""
+
+author:
+  name: Kabir Potdar
+  email: kabirpotdar7@gmail.com
+  github: Kabir08
+  linkedin: kabir-potdar
+  scholar: i1GvrigAAAAJ
+  twitter: potdarkabirr
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
