@@ -9,7 +9,7 @@ title: Home
       <p class="hero-tag">AI / ML Researcher</p>
       <h1 class="hero-name">Kabir<br/>Potdar</h1>
       <p class="hero-sub">
-        Electronics &amp; Telecommunications Engineer working at the intersection of
+        Electronics & Telecommunications Engineer working at the intersection of
         <em>large language model efficiency</em> and <em>edge deployment</em>.
         Research focus: quantization, inference-time compute, and post-training optimization.
       </p>
@@ -36,7 +36,7 @@ title: Home
       <div class="about-text">
         <h2>Building AI that runs at the edge.</h2>
         <p>
-          I'm a researcher and engineer with a background in Electronics &amp; Telecommunications Engineering,
+          I'm a researcher and engineer with a background in Electronics & Telecommunications Engineering,
           specialising in making large language models smaller, faster, and deployable on constrained hardware.
           My work sits at the intersection of <strong>cs.LG</strong> and <strong>cs.AR</strong>.
         </p>
@@ -54,17 +54,17 @@ title: Home
         <div class="sidebar-block">
           <h4>Research Interests</h4>
           <ul>
-            <li>LLM Quantization &amp; Compression</li>
-            <li>Efficient Inference &amp; Edge Deployment</li>
+            <li>LLM Quantization & Compression</li>
+            <li>Efficient Inference & Edge Deployment</li>
             <li>Inference-time Compute Scaling</li>
             <li>Post-training Optimization</li>
-            <li>RAG Systems &amp; Production LLM Pipelines</li>
+            <li>RAG Systems & Production LLM Pipelines</li>
           </ul>
         </div>
         <div class="sidebar-block">
           <h4>Education</h4>
           <p class="edu-item">
-            <strong>B.E. Electronics &amp; Telecommunications</strong><br/>
+            <strong>B.E. Electronics & Telecommunications</strong><br/>
             <span>India · 2024</span>
           </p>
           <!-- Add MSc once confirmed: -->
@@ -81,7 +81,7 @@ title: Home
 <!-- ═══════════════════════════════════ RESEARCH ════════════════════════════════ -->
 <section class="section section-alt" id="research">
   <div class="container">
-    <div class="section-label">02 — Research &amp; Publications</div>
+    <div class="section-label">02 — Research & Publications</div>
     <h2>Publications</h2>
 
     <!-- ── PUBLICATION 1 — edit fields below ── -->
